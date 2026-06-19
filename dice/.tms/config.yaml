@@ -1,0 +1,9 @@
+version: 1
+project:
+  name: dice
+  id_format: numeric
+  id_prefix: ~
+  next_id: 1
+ui:
+  default_view: list
+  terminal_position: right

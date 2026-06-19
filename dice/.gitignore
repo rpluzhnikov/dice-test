@@ -1,0 +1,7 @@
+# Kensa
+# Soft-deleted cases live here — recover them via the Trash panel, don't commit.
+.tms/trash/
+
+# OS cruft
+.DS_Store
+Thumbs.db

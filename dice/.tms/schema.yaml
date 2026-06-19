@@ -1,0 +1,35 @@
+version: 2
+fields:
+  - key: priority
+    name: Priority
+    type: select
+    required: false
+    options:
+      - critical
+      - high
+      - medium
+      - low
+    order: 1
+    system: true
+  - key: status
+    name: Status
+    type: select
+    required: false
+    options:
+      - active
+      - draft
+      - deprecated
+    order: 2
+    system: true
+  - key: tags
+    name: Tags
+    type: multiselect
+    required: false
+    order: 3
+    system: true
+  - key: preconditions
+    name: Preconditions
+    type: textarea
+    required: false
+    order: 4
+    system: true

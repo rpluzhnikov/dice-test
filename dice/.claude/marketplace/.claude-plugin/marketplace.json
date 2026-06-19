@@ -1,0 +1,13 @@
+{
+  "name": "kensa-qa-local",
+  "owner": {
+    "name": "Kensa"
+  },
+  "plugins": [
+    {
+      "name": "kensa-qa",
+      "source": "./kensa-qa",
+      "description": "kensa-qa — manual QA team for Claude Code (installed by Kensa)"
+    }
+  ]
+}

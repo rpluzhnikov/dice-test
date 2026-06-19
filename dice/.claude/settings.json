@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "kensa-qa-local": {
+      "source": {
+        "source": "directory",
+        "path": ".claude/marketplace"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "kensa-qa@kensa-qa-local": true
+  }
+}
