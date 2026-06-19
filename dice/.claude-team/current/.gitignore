@@ -1,0 +1,3 @@
+# Task-specific files are session-local, not committed
+*
+!.gitignore

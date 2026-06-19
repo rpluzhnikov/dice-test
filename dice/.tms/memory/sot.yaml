@@ -1,0 +1,26 @@
+# Source-of-truth configuration.
+# The Test Lead scopes future spec/ticket searches using this file.
+# This is plugin config, NOT credentials — auth is handled by the MCP
+# server via browser OAuth on first connect.
+
+version: 1
+
+sources:
+  - type: atlassian
+    # Covers BOTH Jira and Confluence (one shared MCP server).
+    mcp: atlassian
+
+    jira:
+      # TODO: pin the real Jira project key once known. The user was
+      # unsure at setup ("пока не / или в jira"). "default" = don't scope
+      # to one project; search across accessible projects.
+      project: default
+
+    confluence:
+      # Atlassian MCP connected (browser OAuth done).
+      cloud_id: 86be8ce2-4d07-48c7-a68b-483866ea24ab
+      site: https://pluzhnikov137.atlassian.net
+      space: "~5a7d52622d38bc2ca2c2e76b"   # Roman Pluzhnikov (personal space)
+      notable_pages:
+        - id: 9207811
+          title: "Authorization and Registration Process in Tavern Dice: User Accounts, JWT, and API Security"

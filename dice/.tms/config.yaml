@@ -3,7 +3,7 @@ project:
   name: dice
   id_format: numeric
   id_prefix: ~
-  next_id: 1
+  next_id: 55
 ui:
   default_view: list
   terminal_position: right
